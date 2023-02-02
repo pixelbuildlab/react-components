@@ -5,7 +5,7 @@ const CommentDetail=props=>{
     return(
     <div className="comment">
     <a href="/" className="avatar">
-        <img alt="avater" src={props.image}/>
+        <img alt="avater" src={props.avatar}/>
     </a>
     <div className="content">
         <a href="/" className="author">
